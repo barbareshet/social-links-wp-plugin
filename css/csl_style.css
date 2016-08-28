@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 24, 2016, 2:16:53 PM
+    Author     : ido
+
+ * twitter color: #55acee
+ * fb color: #3b5998
+ * g+ color: #db4b39
+ * yelp color : #C41200
+*/
+
+#csl-footer-links-list{
+    list-style-type: none;
+    
+}
+.csl-footer-links h4{font-weight: bold;}
+.csl-footer-links ul li{display: inline-block; float: left;}
+.csl-footer-links ul li:after{content: " | ";}
+.csl-footer-links ul li:last-child:after{content:"";}
+.csl-footer-links li.social-link a{box-shadow:none;}
+i.fa{
+    padding: 15px;
+    border-radius: 10px;
+    }
+ul#csl-footer-links-list{    padding-left: 0;
+    margin-left: 0;
+    font-size: 1.5em;}
+#facebook .fa-facebook{color: #3b5998;}
+#facebook .fa-facebook:hover{background:#3b5998;color:#fff;}
+
+#twitter .fa-twitter{color: #55acee;}
+#twitter .fa-twitter:hover{background:#55acee;color:#fff;}
+
+#google .fa-google-plus{color: #db4b39;}
+#google .fa-google-plus:hover{background:#db4b39;color:#fff;}
+
+#yelp .fa-yelp{color: #C41200;}
+#yelp .fa-yelp:hover{background:#C41200;color:#fff;}
